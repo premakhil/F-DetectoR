@@ -1,0 +1,60 @@
+
+
+
+{% extends "GT home.html" %}
+
+{% block content %}
+
+<div class="forms-container">
+  <u><h2>Enter the details of the transcation</h2></u>
+  <form action="" method="POST">
+      <p>
+          {{form.Step.label}}
+          {{form.Step(class="form-size")}}
+      </p>
+
+      <p>
+          {{form.Type.label}}
+          {{form.Type(class="form-size")}}
+      </p>
+      <p>
+          {{form.Amount.label}}
+          {{form.Amount(class="form-size")}}
+
+      </p>
+      <p>
+        {{form.D_name.label}}
+        {{form.D_name(class="form-size")}}
+      </p>
+      <p>
+        {{form.A_bal_before.label}}
+        {{form.A_bal_before(class="form-size")}}
+      </p>
+      <p>
+        {{form.A_bal_after.label}}
+        {{form.A_bal_after(class="form-size")}}
+      </p>
+      <p>
+        {{form.P_name.label}}
+        {{form.P_name(class="form-size")}}
+      </p>
+      <p>
+        {{form.P_bal_before.label}}
+        {{form.P_bal_before(class="form-size")}}
+      </p>
+      <p>
+        {{form.P_bal_after.label}}
+        {{form.P_bal_after(class="form-size")}}
+      </p>
+      <p>
+        
+        {{form.Submit(class="submit-size")}}
+      </p>
+      
+  </form>
+
+</div>
+  
+
+{% endblock content %}
+

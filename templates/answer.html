@@ -1,0 +1,17 @@
+{% extends "GT home.html" %}
+
+
+{% block content %}
+<body>
+    <div class="answer-container">
+        {% if prediction[0]==0 %}
+        <h1>Safe</h1>
+        {% else %}
+        <h1>Fraudulent</h1>
+        {% endif %}
+
+    </div>
+    
+</body>
+
+{% endblock content %}

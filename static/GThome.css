@@ -1,0 +1,233 @@
+.mediaViewInfo {
+    --web-view-name: Web 1920 – 1;
+    --web-view-id: Web_1920__1;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+    overflow: hidden;
+}
+:root {
+    --web-view-ids: Web_1920__1;
+}
+
+#Web_1920__1 {
+    /* position: absolute;
+    width: 1920px;
+    height: 1080px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(254,255,255,1);
+    overflow-x: hidden;
+    --web-view-name: Web 1920 – 1;
+    --web-view-id: Web_1920__1;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+
+.container_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+}
+
+body {
+    margin: auto 0;
+    zoom: 75%;
+}
+.zone {
+    
+    cursor:pointer;
+    /* display:inline-block; */
+    color:black;
+    font-size:2em;
+    /* border-radius:4px; */
+    /* border:5px solid black; */
+    transition: all 0.3s linear;
+    z-index: 1;
+}
+
+.title {
+    z-index: 1;
+    margin-right: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3vh;
+    text-align: center;
+}
+.main-nav {
+    display: flex;
+    list-style:none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-top: -50vh;
+    position: relative;
+    right: 50px;
+}
+
+.title {
+    /* position: relative;
+    right: 40vw;
+    bottom: 43vh;
+    font-size: 50px; */
+    display: flex;
+    margin-top: -85vh;
+    margin-right: 50vw;
+
+}
+
+li {
+    padding: 15px 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.push {
+    padding: 15px 50px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.push:hover{
+    background-color: rgb(143, 81, 143);
+}
+
+
+#Ellipse_1_j {
+    fill: url(#Ellipse_1_j);
+}
+.Ellipse_1_j {
+    position: absolute;
+    overflow: visible;
+    width: 3929px;
+    height: 2502px;
+    left: -10px;
+    top: -1342px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw; */
+    
+}
+#Ellipse_2_l {
+    opacity: 0.75;
+    fill: url(#Ellipse_2_l);
+}
+.Ellipse_2_l {
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 4097px;
+    height: 2694px;
+    left: -6px;
+    top: -1342px;
+}
+#Ellipse_3_n {
+    fill: url(#Ellipse_3_n);
+}
+.Ellipse_3_n {
+    filter: drop-shadow(3px 3px 12px rgba(0, 0, 0, 0.361));
+    position: absolute;
+    overflow: visible;
+    width: 208px;
+    height: 208px;
+    left: 50px;
+    top: 858px;
+}
+#GT {
+    filter: drop-shadow(3px 3px 12px rgba(0, 0, 0, 0.361));
+    left: 93px;
+    top: 913px;
+    position: absolute;
+    overflow: hidden;
+    width: 91px;
+    height: 61px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(23,37,42,1);
+}
+.one{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.forms-container {
+    position: relative;
+    left: 100vh;
+    bottom: 75vh;
+    
+}
+
+.answer-container {
+
+    position: relative;
+    left: 98vh;
+    bottom: 50vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+        
+}
+
+p {
+    height: 60px;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+u {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.form-size {
+    height: 30px;
+    width: 500px;
+    font-size: 30px;
+}
+
+.submit-size {
+    width: 180px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 30px;
+    border-width: 8px;
+}
+
+.homepage-text {
+    z-index: 1;
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+    left: 100vh;
+    bottom: 50vh;
+}
+
+.btn-start {
+    color: black;
+    padding: 30px 0px 0px 35px;
+    font-family: Nunito;
+    font-weight: bolder;
+    font-size: 40px;
+    height: 10vh;
+    width: 25vh;
+    border: 5px solid black;
+    border-radius: 50px;
+    position: relative;
+    left: 120vh;
+    bottom: 40vh;
+    cursor: pointer;
+    
+}
+
+a {
+    text-decoration: none;
+}
